@@ -13,7 +13,7 @@ use ahaduzzamanapon\makecrud\Console\RemoveCommentable;
 use ahaduzzamanapon\makecrud\Console\RemoveCrud;
 use ahaduzzamanapon\makecrud\Console\RemoveService;
 
-class makecrudServiceProvider extends ServiceProvider
+class MakecrudServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

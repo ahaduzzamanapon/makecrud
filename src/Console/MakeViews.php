@@ -56,7 +56,7 @@ class MakeViews extends Command
         if(!File::isDirectory($this->pathsAndNamespacesService->getmakecrudViewsStubCustom($templateViewsDirectory)))
         {
             if($templateViewsDirectory=='default-theme')
-                $this->error("Publish the default theme with: php artisan vendor:publish --provider=\"ahaduzzamanapon\makecrud\makecrudServiceProvider\" or create your own default-theme directory here: ".$this->pathsAndNamespacesService->getmakecrudViewsStub());
+                $this->error("Publish the default theme with: php artisan vendor:publish --provider=\"ahaduzzamanapon\makecrud\MakecrudServiceProvider\" or create your own default-theme directory here: ".$this->pathsAndNamespacesService->getmakecrudViewsStub());
             else
                 $this->error("Do you have created a directory called ".$templateViewsDirectory." here: ".$this->pathsAndNamespacesService->getmakecrudViewsStub().'?');
             return;

@@ -28,7 +28,7 @@ If you find this project useful, please consider giving it a star⭐. It helps m
 
 3\. Publish the configuration file, stubs and the default-theme directory for views:
 
-``` php artisan vendor:publish --provider="ahaduzzamanapon\makecrud\makecrudServiceProvider" ```
+``` php artisan vendor:publish --provider="ahaduzzamanapon\makecrud\MakecrudServiceProvider" ```
 
 
 ## Usage
