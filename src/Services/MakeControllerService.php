@@ -68,16 +68,7 @@ class MakeControllerService
         {
             File::put($pathNewController, $controllerStub);
             $this->line("<info>Created Controller:</info> ".$namingConvention['plural_name']);
-
-            $routeContent = "Route::resource('".$namingConvention['plural_low_name']."', ".$namingConvention['plural_name']."Controller::class);";
-            $routePath = base_path('routes/web.php');
-            if (!File::exists($routePath)) {
-                File::put($routePath, "<?php\n\nRoute::get('/', function () {\n    return view('welcome');\n});\n\n");
-            }
-            $existing = File::get($routePath);
-            if (!Str::contains($existing, $routeContent)) {
-                File::append($routePath, $routeContent);
-            }
+            $this->info("Don't forget to add routes (in web.php) like this : Route::resource('".$namingConvention['plural_low_name']."', ".$namingConvention['plural_name']."Controller::class);");
         }
         else
             $this->error('Controller '.$namingConvention['plural_name'].' already exists');
