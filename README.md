@@ -8,10 +8,6 @@ Crud Generator Laravel is a package that you can integrate in your Laravel to cr
 - **Request** file with validation rules
 - **Migration** file
 
-And since 1.9.2, a complete **REST API** !
-
-
-If you find this project useful, please consider giving it a star⭐. It helps me prioritize and focus on keeping project up-to-date. Thank you for your support!
 
 
 ## Installation
@@ -43,7 +39,6 @@ A `Post` can have a `title` and a `content` fields
 
 Let's do this 🙂
 
-<
 
 #### CRUD generator command :
 
