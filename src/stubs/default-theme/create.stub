@@ -14,7 +14,7 @@
 
 DummyFormCreate
 
-		{{ Form::submit('Create', array('class' => 'btn btn-primary')) }}
+		{{ Form::submit('Create', array('class' => 'btn btn-primary btn-sm')) }}
 
 	{{ Form::close() }}
 

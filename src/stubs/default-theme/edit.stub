@@ -13,7 +13,7 @@
 	{{ Form::model(DummyCreateVariableSing$, array('route' => array('DummyVariable.update', DummyCreateVariableSing$->id), 'method' => 'PUT')) }}
 
 DummyFormCreate
-		{{ Form::submit('Edit', array('class' => 'btn btn-primary')) }}
+		{{ Form::submit('Edit', array('class' => 'btn btn-primary btn-sm')) }}
 
 	{{ Form::close() }}
 @stop

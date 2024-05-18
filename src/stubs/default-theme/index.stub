@@ -2,9 +2,9 @@
 
 @section('DummySection')
 
-	<div class="d-flex justify-content-end mb-3"><a href="{{ route('DummyVariable.create') }}" class="btn btn-info">Create</a></div>
+	<div class="d-flex justify-content-end mb-3"><a href="{{ route('DummyVariable.create') }}" class="btn btn-info btn-sm">Create</a></div>
 
-	<table class="table table-bordered">
+	<table class="table table-bordered table-hover">
 		<thead>
 			<tr>
 				<th>id</th>
@@ -20,10 +20,10 @@ DummyHeaderTable
 DummyIndexTable
 					<td>
 						<div class="d-flex gap-2">
-                            <a href="{{ route('DummyVariable.show', [DummyCreateVariableSing$->id]) }}" class="btn btn-info">Show</a>
-                            <a href="{{ route('DummyVariable.edit', [DummyCreateVariableSing$->id]) }}" class="btn btn-primary">Edit</a>
+                            <a href="{{ route('DummyVariable.show', [DummyCreateVariableSing$->id]) }}" class="btn btn-info btn-sm">Show</a>
+                            <a href="{{ route('DummyVariable.edit', [DummyCreateVariableSing$->id]) }}" class="btn btn-primary btn-sm">Edit</a>
                             {!! Form::open(['method' => 'DELETE','route' => ['DummyVariable.destroy', DummyCreateVariableSing$->id]]) !!}
-                                {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
+                                {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-sm']) !!}
                             {!! Form::close() !!}
                         </div>
 					</td>
