@@ -43,5 +43,6 @@
                 "ahaduzzamanapon\\makecrud\\makecrudServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
