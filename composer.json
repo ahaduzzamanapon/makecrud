@@ -25,7 +25,8 @@
     ],
     "require":
     	{
-    		"php": ">=8.0.0"
+    		"php": ">=8.0.0",
+            "ahaduzzamanapon/makecrud": "^1.0"
     	},
     "autoload":
     {
