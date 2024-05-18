@@ -18,7 +18,7 @@ If you find this project useful, please consider giving it a star⭐. It helps m
 
 1\. Run the following composer command:
 
-``` composer require ahaduzzamanapon/makecrud --dev ```
+``` composer require ahaduzzamanapon/makecrud:dev-main ```
 
 2\. If you don't use Laravel Collective Form package in your project, install it:
 
