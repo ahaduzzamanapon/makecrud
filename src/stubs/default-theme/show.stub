@@ -1,7 +1,5 @@
 @extends('DummyExtends')
-
 @section('DummySection')
-
 	<table class="table">
 		<thead>
 			<tr>
@@ -18,5 +16,4 @@
 			</tr>
 		</tbody>
 	</table>
-
 @stop
