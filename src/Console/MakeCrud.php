@@ -146,6 +146,7 @@ class MakeCrud extends Command
 
     private function createRelationships($infos, $namingConvention)
     {
+        
         $singularName = $namingConvention['singular_name'];
         if ($this->confirm('Do you want to create relationships between this model and another one?'))
         {
