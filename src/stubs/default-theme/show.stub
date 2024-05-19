@@ -2,6 +2,21 @@
 
 @section('DummySection')
 
-	{{ DummyCreateVariableSing$->id }}
+	<table class="table">
+		<thead>
+			<tr>
+				@foreach($DummyCreateVariableSing$->keys() as $key)
+					<th>{{ $key }}</th>
+				@endforeach
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				@foreach($DummyCreateVariableSing$->values() as $value)
+					<td>{{ $value }}</td>
+				@endforeach
+			</tr>
+		</tbody>
+	</table>
 
 @stop
